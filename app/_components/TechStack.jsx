@@ -71,7 +71,7 @@ function TechStack() {
 export default TechStack;
 
 const AppContainer = styled.div`
-  width: 100vw;
+
   
   color: #000000;
   position: relative;
