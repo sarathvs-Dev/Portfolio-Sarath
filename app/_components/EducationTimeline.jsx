@@ -2,7 +2,7 @@ import React from 'react'
 
 function EducationTimeline() {
   return (
-    <section class="flex min-h-screen md:justify-end  justify-center ">
+    <section class="flex  md:justify-end  justify-center ">
     <div class="w-80">
       <h2 class="text-xl text-gray-700 mb-7">Education Deatils</h2>
       <ul>
