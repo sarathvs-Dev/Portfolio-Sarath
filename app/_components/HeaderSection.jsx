@@ -4,15 +4,30 @@ function HeaderSection() {
   return (
     <div>
         <div className='bg-gray-100'>
-            <nav className='fixed top-0 bg-white w-full shadow'>
-                <div className='m-auto flex justify-between items-center text-gray-700'>
-                    <h1 className='pl-8 py-4 text-xl '>SARATH VS</h1>
+            <nav className='fixed top-0 bg-white w-full '>
+                <div className='m-auto flex justify-end md:mx-28 md:my-6  my-4 items-center text-gray-700'>
+                    {/* <h1 className='pl-8 py-4 text-xl '>SARATH VS</h1> */}
 
                     <ul className='hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer'>
-                        <li className='hover:bg-gray-200 py-4 px-6'>Home</li>
-                        <li className='hover:bg-gray-200 py-4 px-6'>About</li>
+                    <li className="relative group py-4 px-6 text-blue-700 font-bold cursor-pointer">
+  Home
+  {/* <span
+    className="absolute bottom-0  h-[2px] bg-blue-400   transition-all duration-300 ease-in-out w-full left-0"
+  ></span> */}
+</li>
 
-                        <li className='hover:bg-gray-200 py-4 px-6'>Project</li>
+<li className="relative group py-4 px-6  hover:text-blue-700 font-bold cursor-pointer">
+  About
+  {/* <span
+    className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-blue-400 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"
+  ></span> */}
+</li>
+<li className="relative group py-4 px-6 hover:text-blue-700 font-bold cursor-pointer">
+  Project
+  {/* <span
+    className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-blue-400 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"
+  ></span> */}
+</li>
 
 
                     </ul>
