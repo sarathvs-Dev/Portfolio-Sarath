@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
 
-            <div className="md:-ml-44 md:mt-12 md:pr-44 px-10 ">
+            <div className="md:-ml-44 md:mt-12 md:pr-44 px-10 mt-10">
               <div className=" font-roboto">
                 <p>
                   <span className="font-bold text-lg">Hey, I'm Sarath V S</span>  <br></br>
