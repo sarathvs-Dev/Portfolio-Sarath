@@ -143,6 +143,7 @@ const scrollX = keyframes`
 const common = css`
   flex-shrink: 0;
   display: flex;
+   width: fit-content
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
@@ -181,6 +182,7 @@ const Image = styled.img`
   padding: 10px 15px;
 
   @media (max-width: 768px) {
+  aspect-ratio: 1/1;
     padding: 5px 10px;
   }
 `;
