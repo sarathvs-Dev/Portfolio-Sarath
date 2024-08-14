@@ -1,7 +1,5 @@
-
-'use client'
+'use client';
 import React from 'react';
-import styled, { keyframes, css } from 'styled-components';
 
 function TechStack() {
   const row1 = [
@@ -25,162 +23,57 @@ function TechStack() {
   ];
 
   return (
-    <div>
-      <AppContainer>
-        <Wrapper>
-          <Text>Toolkit.</Text>
-          <Note>Crafting Solutions with Expertise in Modern Technologies.</Note>
-          <Marquee>
-            <MarqueeGroup>
+    <div className="relative flex items-center justify-center text-black">
+      <div className="flex flex-col items-center justify-center w-full">
+        <div className="mb-2 text-[2.2rem] font-medium text-[#02203c] md:text-[1.8rem]">
+          Toolkit.
+        </div>
+        <div className="mb-10 text-[1.1rem] font-light text-[#7c8e9a] md:text-[1rem]">
+          Crafting Solutions with Expertise in Modern Technologies.
+        </div>
+
+        {/* Row 1 */}
+        <div className="relative w-full overflow-hidden">
+          <div className="flex w-full overflow-hidden select-none" style={{ maskImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), black 10%, black 90%, rgba(0, 0, 0, 0))' }}>
+            <div className="flex items-center justify-around whitespace-nowrap animate-scrollX">
               {row1.map((el, index) => (
-                <ImageGroup key={index}>
-                  <Image src={el} />
-                </ImageGroup>
+                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
+                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                </div>
               ))}
-            </MarqueeGroup>
-            <MarqueeGroup>
+            </div>
+            <div className="flex items-center justify-around whitespace-nowrap animate-scrollX">
               {row1.map((el, index) => (
-                <ImageGroup key={index}>
-                  <Image src={el} />
-                </ImageGroup>
+                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
+                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                </div>
               ))}
-            </MarqueeGroup>
-          </Marquee>
-          <Marquee>
-            <MarqueeGroup2>
+            </div>
+          </div>
+        </div>
+
+        {/* Row 2 */}
+        <div className="relative w-full overflow-hidden">
+          <div className="flex w-full overflow-hidden select-none" style={{ maskImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), black 10%, black 90%, rgba(0, 0, 0, 0))' }}>
+            <div className="flex items-center justify-around whitespace-nowrap animate-scrollXReverse">
               {row2.map((el, index) => (
-                <ImageGroup key={index}>
-                  <Image src={el} />
-                </ImageGroup>
+                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
+                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                </div>
               ))}
-            </MarqueeGroup2>
-            <MarqueeGroup2>
+            </div>
+            <div className="flex items-center justify-around whitespace-nowrap animate-scrollXReverse">
               {row2.map((el, index) => (
-                <ImageGroup key={index}>
-                  <Image src={el} />
-                </ImageGroup>
+                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
+                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                </div>
               ))}
-            </MarqueeGroup2>
-          </Marquee>
-        </Wrapper>
-      </AppContainer>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default TechStack;
-
-const AppContainer = styled.div`
-
-  z-index:-20;
-  color: #000000;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  @media (max-width: 768px) {
-    height: auto;
-    padding: 20px;
-  }
-`;
-
-const Wrapper = styled.div`
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-`;
-
-const Text = styled.div`
-  font-size: 2.2rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  color: #02203c;
-
-  @media (max-width: 768px) {
-    font-size: 1.8rem;
-  }
-`;
-
-const Note = styled.div`
-  font-size: 1.1rem;
-  font-weight: 200;
-  margin-bottom: 40px;
-  color: #7c8e9a;
-
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
-`;
-
-const Marquee = styled.div`
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-  user-select: none;
-
-  mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 10%,
-    rgba(0, 0, 0, 1) 90%,
-    rgba(0, 0, 0, 0)
-  );
-`;
-
-const scrollX = keyframes`
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-`;
-
-const common = css`
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  white-space: nowrap;
-  width: 100%;
-  animation: ${scrollX} 30s linear infinite;
-`;
-
-const MarqueeGroup = styled.div`
-  ${common}
-`;
-
-const MarqueeGroup2 = styled.div`
-  ${common}
-  animation-direction: reverse;
-  animation-delay: -3s;
-`;
-
-const ImageGroup = styled.div`
-  display: grid;
-  place-items: center;
-  width: clamp(8rem, 5vw, 20rem);
-  padding: calc(clamp(8rem, 5vw, 20rem) / 10);
-
-  @media (max-width: 768px) {
-    width: clamp(6rem, 5vw, 15rem);
-    padding: calc(clamp(6rem, 5vw, 15rem) / 10);
-  }
-`;
-
-const Image = styled.img`
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  aspect-ratio: 16/9;
-  padding: 10px 15px;
-
-  @media (max-width: 768px) {
-    padding: 5px 10px;
-  }
-`;

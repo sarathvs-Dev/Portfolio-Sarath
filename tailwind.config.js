@@ -16,6 +16,21 @@ module.exports = {
         second:["Montserrat","sans-serif"],
         roboto:["Bona Nova SC", "serif"],
       },
+      keyframes: {
+        scrollX: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        scrollXReverse: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        scrollX: 'scrollX 30s linear infinite',
+        scrollXReverse: 'scrollXReverse 30s linear infinite',
+      },
+
     },
   
   },
