@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily:{
         second:["Montserrat","sans-serif"],
+        third:["Montserrat","sans-serif"],
         roboto:["Bona Nova SC", "serif"],
       },
       keyframes: {

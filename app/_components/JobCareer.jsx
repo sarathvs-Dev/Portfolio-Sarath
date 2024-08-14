@@ -1,10 +1,14 @@
 import React from 'react'
+import { GoOrganization } from "react-icons/go";
+import { MdWork } from "react-icons/md";
+
+
 
 function JobCareer() {
   return (
     <div >   <section class="flex  md:justify-start justify-center">
     <div class="w-80 -z-20">
-      <h2 class="text-xl text-gray-700 mb-7">Career Deatils</h2>
+      <h2 class="text-xl text-gray-700 mb-7 flex items-center gap-3"><MdWork/>Career Deatils</h2>
       <ul>
         <li class="relative flex items-baseline gap-6 pb-5">
           <div class="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400 ">

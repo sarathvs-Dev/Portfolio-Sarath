@@ -16,14 +16,14 @@ export default function Home() {
 
 
         <div className="my-36">
-          <div className="grid md:grid-cols-2 grid-cols-1">
+          <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex   justify-center items-center">
 
               <Image src={myImage} width={250} height={250} className=" rounded-full " />
             </div>
 
 
-            <div className="md:-ml-44 md:mt-12 md:pr-44 px-10 mt-10">
+            <div className="lg:-ml-44 md:ml-10 md:mt-12 lg:pr-44  px-10 mt-10">
               <div className="">
                 <p>
                   <span className="font-bold text-lg">Hey, I'm Sarath V S</span>  <br></br>
@@ -44,10 +44,12 @@ export default function Home() {
           {/* <div className="grid grid-cols-1 md:grid-cols-2 "> */}
 
           <div className="flex justify-center items-center gap-8 text-2xl mt-16 text-gray-500">
-            <FaLinkedin className="cursor-pointer" />
-            <FaInstagram className="cursor-pointer" />
-            <FaGithub className="cursor-pointer" />
-            <BiLogoGmail className="cursor-pointer" />
+          <a href="https://www.linkedin.com/in/sarath-vs-0938a11ab/">  <FaLinkedin className="cursor-pointer" /></a>
+           <a href="https://www.instagram.com/sarath__v.s/?igsh=MWx4aWN4aWlvazRtNA%3D%3D"> <FaInstagram className="cursor-pointer" /></a>
+            <a href="https://github.com/sarathvs-Dev"><FaGithub className="cursor-pointer" /></a>
+            <a href="mailto:sarathvs124@example.com">
+  <BiLogoGmail className="cursor-pointer" />
+</a>
           </div>
         </div>
         <div>
