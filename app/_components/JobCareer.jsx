@@ -2,7 +2,7 @@ import React from 'react'
 
 function JobCareer() {
   return (
-    <div>   <section class="flex min-h-screen md:justify-start justify-center">
+    <div>   <section class="flex  md:justify-start justify-center">
     <div class="w-80 ">
       <h2 class="text-xl text-gray-700 mb-7">Career Deatils</h2>
       <ul>

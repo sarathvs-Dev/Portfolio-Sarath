@@ -7,6 +7,7 @@ import FooterSection from "./_components/FooterSection";
 import myImage from '@/public/myImage.jpg'
 import EducationTimeline from "./_components/EducationTimeline";
 import JobCareer from "./_components/JobCareer";
+import TechStack from "./_components/TechStack";
 
 export default function Home() {
   return (
@@ -51,6 +52,8 @@ export default function Home() {
 
 
 </div>
+
+<TechStack/>
           <FooterSection />
         </div>
       </div>
