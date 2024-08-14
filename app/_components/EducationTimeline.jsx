@@ -2,8 +2,8 @@ import React from 'react'
 
 function EducationTimeline() {
   return (
-    <section class="flex  md:justify-end  justify-center ">
-    <div class="w-80">
+    <section class="flex  md:justify-end  justify-center  font-second">
+    <div class="w-80 -z-20">
       <h2 class="text-xl text-gray-700 mb-7">Education Deatils</h2>
       <ul>
         <li class="relative flex items-baseline gap-6 pb-5">
@@ -13,7 +13,7 @@ function EducationTimeline() {
             </svg>
           </div>
           <div>
-            <p class="text-sm text-gray-600 text-left">MCA</p>
+            <p class="text-sm text-gray-600 text-left">Master Of Computer Application(MCA)</p>
             <p class="mt-2 text-gray-600 text-sm">Marian College Kuttikanam</p>
             <p class="mt-2 text-gray-600 text-sm">2020-2022</p>
 
@@ -26,7 +26,7 @@ function EducationTimeline() {
             </svg>
           </div>
           <div>
-            <p class="text-sm text-gray-600">BCA</p>
+            <p class="text-sm text-gray-600">Bachelor Of Computer Application(BCA)</p>
             <p class="mt-2 text-gray-600 text-sm">St George's College Aruvithura.</p>
             <p class="mt-2 text-gray-600 text-sm">2017-2020</p>
 

@@ -5,7 +5,7 @@ function FooterSection() {
     <div>
         
         <div>
-            <h2 className='flex justify-center items-center text-gray-500'>© 2024 Sarath VS. All rights reserved.</h2>
+            <h2 className='flex justify-center items-center text-gray-500 font-second my-5'>© 2024 Sarath VS. All rights reserved.</h2>
             
         </div>
     </div>

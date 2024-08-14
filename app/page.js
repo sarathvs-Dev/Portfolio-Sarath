@@ -12,7 +12,7 @@ import TechStack from "./_components/TechStack";
 export default function Home() {
   return (
     <>
-      <div className="font-roboto">
+      <div className="font-second">
 
 
         <div className="my-36">
@@ -24,7 +24,7 @@ export default function Home() {
 
 
             <div className="md:-ml-44 md:mt-12 md:pr-44 px-10 mt-10">
-              <div className=" font-roboto">
+              <div className="">
                 <p>
                   <span className="font-bold text-lg">Hey, I'm Sarath V S</span>  <br></br>
                   <span className=" text-3xl  md:text-4xl">Software Developer</span></p>
@@ -32,7 +32,7 @@ export default function Home() {
               {/* </div> */}
 
 
-              <h2 className=" text-lg  mt-5 md:mt-1  md:pt-5  font-roboto from-neutral-400 text-justify">
+              <h2 className=" text-lg  mt-5 md:mt-1  md:pt-5   from-neutral-400 text-justify">
                 I’m Sarath V S, a fullstack developer and UI/UX designer based in
                 Kerala, India.Experienced software developer with expertise in
                 designing, developing, and maintaining software systems. Proficient in
@@ -57,7 +57,7 @@ export default function Home() {
 
 
           </div>
-          <div className="my-16 lg:mx-56">
+          <div className="my-16 lg:mx-56 -z-20">
             <TechStack />
 
           </div>

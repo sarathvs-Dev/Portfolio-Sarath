@@ -3,7 +3,7 @@ import React from "react";
 function HeaderSection() {
   return (
     <div>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 font-second z-40">
         <nav className="fixed top-0 bg-white w-full ">
           <div className="m-auto flex justify-end md:mx-28 md:my-6  my-4 items-center text-gray-700">
             {/* <h1 className='pl-8 py-4 text-xl '>SARATH VS</h1> */}
@@ -36,7 +36,7 @@ function HeaderSection() {
 
               <div
                 className="absolute top-0 -right-full h-screen w-6/12 bg-white border opacity-0
-                        group-focus:right-0 group-focus:opacity-100 transition-all duration-300"
+                        group-focus:right-0 group-focus:opacity-100 transition-all duration-300 z-40"
               >
                 <ul className="flex flex-col items-center w-full text-base cursor-pointer pt-10">
                   <li className="hover:bg-gray-200 py-4 px-6 w-full">Home</li>

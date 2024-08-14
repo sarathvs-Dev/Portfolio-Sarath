@@ -72,7 +72,7 @@ export default TechStack;
 
 const AppContainer = styled.div`
 
-  
+  z-index:-20;
   color: #000000;
   position: relative;
   display: flex;
