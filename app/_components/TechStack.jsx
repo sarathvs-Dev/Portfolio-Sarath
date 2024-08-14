@@ -1,4 +1,3 @@
-
 'use client'
 import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
@@ -143,11 +142,9 @@ const scrollX = keyframes`
 const common = css`
   flex-shrink: 0;
   display: flex;
-   width: fit-content
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
-  width: 100%;
   animation: ${scrollX} 30s linear infinite;
 `;
 
@@ -168,8 +165,8 @@ const ImageGroup = styled.div`
   padding: calc(clamp(8rem, 5vw, 20rem) / 10);
 
   @media (max-width: 768px) {
-    width: clamp(6rem, 5vw, 15rem);
-    padding: calc(clamp(6rem, 5vw, 15rem) / 10);
+    width: clamp(8rem, 15vw, 20rem);
+    padding: calc(clamp(8rem, 15vw, 20rem) / 10);
   }
 `;
 
@@ -179,10 +176,9 @@ const Image = styled.img`
   height: 100%;
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
-  padding: 10px 15px;
+  padding: 10px;
 
   @media (max-width: 768px) {
-  aspect-ratio: 1/1;
-    padding: 5px 10px;
+    padding: 5px;
   }
 `;
