@@ -1,3 +1,4 @@
+
 'use client'
 import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
@@ -71,7 +72,7 @@ export default TechStack;
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  
   color: #000000;
   position: relative;
   display: flex;
@@ -145,6 +146,7 @@ const common = css`
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
+  width: 100%;
   animation: ${scrollX} 30s linear infinite;
 `;
 
@@ -165,8 +167,8 @@ const ImageGroup = styled.div`
   padding: calc(clamp(8rem, 5vw, 20rem) / 10);
 
   @media (max-width: 768px) {
-    width: clamp(8rem, 15vw, 20rem);
-    padding: calc(clamp(8rem, 15vw, 20rem) / 10);
+    width: clamp(6rem, 5vw, 15rem);
+    padding: calc(clamp(6rem, 5vw, 15rem) / 10);
   }
 `;
 
@@ -176,9 +178,9 @@ const Image = styled.img`
   height: 100%;
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
-  padding: 10px;
+  padding: 10px 15px;
 
   @media (max-width: 768px) {
-    padding: 5px;
+    padding: 5px 10px;
   }
 `;

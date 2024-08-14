@@ -52,8 +52,10 @@ export default function Home() {
 
 
 </div>
-
+<div className="my-16">
 <TechStack/>
+
+</div>
           <FooterSection />
         </div>
       </div>
