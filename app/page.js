@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import FooterSection from "./_components/FooterSection";
 import myImage from '@/public/myImage.jpg'
+import EducationTimeline from "./_components/EducationTimeline";
+import JobCareer from "./_components/JobCareer";
 
 export default function Home() {
   return (
@@ -43,6 +45,12 @@ export default function Home() {
           </div>
         </div>
         <div>
+<div className="grid md:grid-cols-2 grid-cols-1 gap-28">
+<EducationTimeline/>
+<JobCareer/>
+
+
+</div>
           <FooterSection />
         </div>
       </div>
