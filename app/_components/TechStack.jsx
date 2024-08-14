@@ -25,11 +25,12 @@ function TechStack() {
       ];
     
       return (
-        <AppContainer>
-          <Wrapper>
+        <div > 
+        <AppContainer >
+          <Wrapper className='px-8' >
             <Text>Toolkit.</Text>
             <Note>Crafting Solutions with Expertise in Modern Technologies.</Note>
-            <Marquee>
+            <Marquee >
               <MarqueeGroup>
                 {row1.map((el) => (
                   <ImageGroup>
@@ -63,6 +64,7 @@ function TechStack() {
             </Marquee>
           </Wrapper>
         </AppContainer>
+        </div>
       );
     }
     
@@ -162,5 +164,5 @@ const Image = styled.img`
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
   padding: 15px 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
 `;
