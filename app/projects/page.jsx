@@ -9,8 +9,7 @@ function Project() {
         <HeroSection/>
         <div className='my-12 gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+   
 
         </div>
     </div>

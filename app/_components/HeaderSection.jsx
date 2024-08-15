@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function HeaderSection() {
@@ -10,7 +11,9 @@ function HeaderSection() {
 
             <ul className="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
               <li className="relative group py-4 px-6 text-blue-700 font-bold cursor-pointer">
+              <Link href={'/'}>
                 Home
+                </Link>
                 {/* <span
     className="absolute bottom-0  h-[2px] bg-blue-400   transition-all duration-300 ease-in-out w-full left-0"
   ></span> */}
@@ -23,7 +26,9 @@ function HeaderSection() {
   ></span> */}
               </li>
               <li className="relative group py-4 px-6 hover:text-blue-700 font-bold cursor-pointer">
+              <Link href={'/projects'}>
                 Project
+                </Link>
                 {/* <span
     className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-blue-400 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"
   ></span> */}

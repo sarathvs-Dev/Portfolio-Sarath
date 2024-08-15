@@ -1,0 +1,46 @@
+[
+    {
+      "title": "Task Management System",
+      "description": "A software application designed to help teams and individuals organize,prioritize, and track tasks within a project.",
+      "technologies": [
+        { "name": "Node Js", "icon": "/node.png" },
+        { "name": "Vue Js", "icon": "/vue.png" }
+      ]
+    },
+    {
+      "title": "Waste Management System",
+      "description": "An admin web application, specifically designed for administrators to efficiently manage waste management processes through the YOLOv8 deep learning model.",
+      "technologies": [
+        { "name": "Python", "icon": "/python.png" },
+        { "name": "React Js", "icon": "/React.png" }
+      ]
+    },
+    {
+        "title": "Ai Mock Interview Platform",
+        "description": "Developed an AI-driven mock interview platform designed to simulate real-world interview experiences for users, providing personalized feedback and enhancing preparation",
+        "technologies": [
+         
+          { "name": "Next.js", "icon": "/next.svg" },
+          { "name": "Tailwind css", "icon": "/tailwindcss.png" }
+        ]
+      },
+      {
+        "title": "Construction Company Site",
+        "description": "Developed a static website for a construction and house designing startup, aimed at showcasing their services, portfolio, and contact information",
+        "technologies": [
+         
+          { "name": "React.js", "icon": "/React.png" },
+          { "name": "Tailwind css", "icon": "/tailwindcss.png" }
+        ]
+      },
+      {
+        "title": "Face detection and ID card verification",
+        "description": "FaceID Verifier is an advanced access control solution tailored for secure company entry systems",
+        "technologies": [
+         
+            { "name": "Python", "icon": "/python.png" },
+            { "name": "React Js", "icon": "/React.png" }
+        ]
+      }
+  ]
+  
