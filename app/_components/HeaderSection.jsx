@@ -44,10 +44,10 @@ function HeaderSection() {
                         group-focus:right-0 group-focus:opacity-100 transition-all duration-300 z-40"
               >
                 <ul className="flex flex-col items-center w-full text-base cursor-pointer pt-10">
-                  <li className="hover:bg-gray-200 py-4 px-6 w-full">Home</li>
+                  <li className="hover:bg-gray-200 py-4 px-6 w-full"><Link href={'/'}>Home</Link> </li>
                   <li className="hover:bg-gray-200 py-4 px-6 w-full">About</li>
                   <li className="hover:bg-gray-200 py-4 px-6 w-full">
-                    Project
+                  <Link href={'/projects'}>Project</Link>   
                   </li>
                 </ul>
               </div>
