@@ -8,7 +8,10 @@ function ProjectCard() {
   return (
     <>
       {projects.map((project, index) => (
-        <div key={index} className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-h-[38rem] max-w-[38rem] flex-row">
+        <div
+          key={index}
+          className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-h-[38rem] max-w-[38rem] flex-row"
+        >
           <div className="p-6">
             <h4 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
               {project.title}
@@ -18,13 +21,33 @@ function ProjectCard() {
             </h6>
             <div className="flex flex-row gap-2 text-2xl">
               {project.technologies.map((tech, techIndex) => (
-                <Image key={techIndex} src={tech.icon} width={40} height={40} alt={tech.name} title={tech?.name} />
+                <Image
+                  key={techIndex}
+                  src={tech.icon}
+                  width={40}
+                  height={40}
+                  alt={tech.name}
+                  title={tech?.name}
+                />
               ))}
             </div>
 
             <div className="flex justify-end items-center gap-3 cursor-pointer text-xl mt-4">
-              <FaGithub className="text-black" />
-              <Link2Icon className="text-blue-950" />
+              {project.git && (
+                <a href={project.git} target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="text-black" />
+                </a>
+              )}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="view website"
+                >
+                  <Link2Icon className="text-blue-950" />
+                </a>
+              )}
             </div>
             <a href="#" className="inline-block mt-4">
               <button

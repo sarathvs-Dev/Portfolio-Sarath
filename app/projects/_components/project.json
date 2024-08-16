@@ -22,7 +22,9 @@
          
           { "name": "Next.js", "icon": "/next.svg" },
           { "name": "Tailwind css", "icon": "/tailwindcss.png" }
-        ]
+        ],
+      "git":"https://github.com/sarathvs-Dev/Ai-mock-interview-platform/tree/main",
+      "link":"https://ai-mock-interview-platform-qj4p.vercel.app/"
       },
       {
         "title": "Construction Company Site",
@@ -31,7 +33,8 @@
          
           { "name": "React.js", "icon": "/React.png" },
           { "name": "Tailwind css", "icon": "/tailwindcss.png" }
-        ]
+        ],
+        "link":"https://epic-designers-builders.web.app/"
       },
       {
         "title": "Face detection and ID card verification",
