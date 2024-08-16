@@ -13,11 +13,22 @@ function AboutHeroSection() {
   return (
     <div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+
+      <div className="md:hidden flex justify-center items-center md:-mt-20  ">
+    <Image
+      src={myImage}
+      width={350}
+      height={350}
+      className="rounded-3xl shadow-md"
+    />
+  </div>
+
         <div className="">
+
           <div>
 
          
-          <h2 className="font-bold text-5xl"> About Myself</h2>
+          <h2 className="font-bold md:text-5xl text-3xl"> About Myself</h2>
           <h2 className=" justify-center items-center mt-10 text-justify text-gray-900">
             I am a motivated Software Engineer with nearly two years of
             experience in developing both front-end and back-end components of

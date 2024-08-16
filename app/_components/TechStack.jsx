@@ -29,7 +29,7 @@ function TechStack() {
           Toolkit.
         </div>
         <div className="mb-10 text-[1.1rem] font-light text-[#7c8e9a] md:text-[1rem] ml-5 md:ml-1">
-          Crafting Solutions with Expertise in Modern Technologies.
+         The skils,tools and technologies i am really good at
         </div>
 
         {/* Row 1 */}

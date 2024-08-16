@@ -27,7 +27,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex   justify-center items-center">
 
-              <Image src={myImage} width={250} height={250} className=" rounded-full " />
+              <Image src={myImage} width={300} height={300} className=" rounded-full " />
             </div>
 
 
@@ -41,11 +41,11 @@ export default function Home() {
 
 
               <h2 className=" text-lg  mt-5 md:mt-1  md:pt-5   from-neutral-400 text-justify">
-                I’m Sarath V S, a fullstack developer and UI/UX designer based in
+                I’m Sarath V S, a Software developer based in
                 Kerala, India.Experienced software developer with expertise in
                 designing, developing, and maintaining software systems. Proficient in
                 various platforms, languages, and frameworks, including React,
-                Next.Js, Angular, and Express JS.
+                Next.Js, Angular, Vue and Python.
               </h2>
             </div>
           </div>
