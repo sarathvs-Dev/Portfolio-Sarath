@@ -18,7 +18,7 @@ function ConnectSection() {
         </p> */}
       </div>
       <Separator className="my-4" />
-      <div className="flex h-5 items-center space-x-4 text-3xl">
+      <div className="flex h-5 items-center space-x-4 text-3xl text-gray-600">
         <div>
         <a href="https://www.linkedin.com/in/sarath-vs-0938a11ab/">  <FaLinkedin className="cursor-pointer hover:text-blue-900" /></a>
 

@@ -23,7 +23,7 @@ function TechStack() {
   ];
 
   return (
-    <div className="relative flex items-center justify-center text-black">
+    <div className="relative flex items-center justify-center text-black -z-20">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="mb-2 text-[2.2rem] font-medium text-[#02203c] md:text-[1.8rem]">
           Toolkit.

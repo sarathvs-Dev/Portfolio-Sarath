@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import myImage from "@/public/myImage.jpg";
+import myImage from "@/public/myPicS.jpg";
 import ConnectSection from "./ConnectSection";
 import { HomeIcon, LocateIcon } from "lucide-react";
 import { FaLocationArrow, FaMobileScreen } from "react-icons/fa6";
@@ -17,7 +17,7 @@ function AboutHeroSection() {
           <div>
 
          
-          <h2 className="font-bold text-5xl">A Little About Myself</h2>
+          <h2 className="font-bold text-5xl"> About Myself</h2>
           <h2 className=" justify-center items-center mt-10 text-justify text-gray-900">
             I am a motivated Software Engineer with nearly two years of
             experience in developing both front-end and back-end components of
