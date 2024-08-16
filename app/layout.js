@@ -10,10 +10,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+    const data="home"
   return (
+  
     <html lang="en">
       <body className={inter.className}>
-        <HeaderSection/>
+        <HeaderSection pathname={data}/>
         {children}</body>
     </html>
   );
