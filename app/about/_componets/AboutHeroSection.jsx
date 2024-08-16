@@ -50,18 +50,17 @@ function AboutHeroSection() {
 
           
         </div>
-        <div className="flex  justify-center items-center -mt-20 ">
-          <Image
-            src={myImage}
-            width={400}
-            height={400}
-            className="rounded-3xl  shadow-md md:block hidden"
-          />
+     
+  <div className="md:flex justify-center items-center -mt-20 hidden">
+    <Image
+      src={myImage}
+      width={400}
+      height={400}
+      className="rounded-3xl shadow-md"
+    />
+  </div>
 
 
-
-
-        </div>
       </div>
     </div>
   );
