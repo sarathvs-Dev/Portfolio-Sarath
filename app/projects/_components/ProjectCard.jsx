@@ -10,13 +10,13 @@ function ProjectCard() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-h-[38rem] max-w-[38rem] flex-row"
+          className="-z-50 relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-h-[38rem] max-w-[38rem] flex-row"
         >
           <div className="p-6">
             <h4 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
               {project.title}
             </h4>
-            <h6 className="block mb-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-gray-700 text-justify">
+            <h6 className="block mb-4 font-sans text-base antialiased  leading-relaxed tracking-normal text-gray-700 text-justify">
               {project.description}
             </h6>
             <div className="flex flex-row gap-2 text-2xl">

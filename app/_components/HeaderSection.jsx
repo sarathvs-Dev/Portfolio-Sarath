@@ -10,15 +10,15 @@ function HeaderSection({pathname}) {
             {/* <h1 className='pl-8 py-4 text-xl '>SARATH VS</h1> */}
 
             <ul className="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
-            <li className={`hover:bg-gray-200 py-4 px-6 w-full ${pathname === 'home' ? 'text-blue-700 font-bold' : 'text-gray-700'}`}>
+            <li className={`hover:bg-gray-100 hover:rounded-full py-4 px-6 w-full ${pathname === 'home' ? 'text-blue-700 font-bold' : 'text-gray-700'}`}>
                     <Link href="/">Home</Link>
                   </li>
 
-                  <li className={`relative group py-4 px-6 ${pathname === 'about' ? 'text-blue-700 font-bold' : 'text-gray-700'} cursor-pointer`}>
+                  <li className={`hover:bg-gray-100 hover:rounded-full relative group py-4 px-6 ${pathname === 'about' ? 'text-blue-700 font-bold' : 'text-gray-700'} cursor-pointer`}>
                 <Link href="/about">About</Link>
               </li>
 
-              <li className={`relative group py-4 px-6 ${pathname === 'projects' ? 'text-blue-700 font-bold' : 'text-gray-700'} cursor-pointer`}>
+              <li className={`hover:bg-gray-100 hover:rounded-full relative group py-4 px-6 ${pathname === 'projects' ? 'text-blue-700 font-bold' : 'text-gray-700'} cursor-pointer`}>
                 <Link href="/projects">Project</Link>
               </li>
             </ul>

@@ -37,7 +37,7 @@ function ConnectSection() {
         <Separator orientation="vertical" />
         <div>
         <a href="https://wa.me/919495330037">
-        <FaWhatsapp className="cursor-pointer hover:text-green-800" />
+        <FaWhatsapp className="cursor-pointer hover:text-green-700" />
             </a>
         </div>
       </div>

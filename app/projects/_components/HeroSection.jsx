@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <div>
         
-        <div className='flex flex-col justify-start items-center mx-10 gap-10'>
+        <div className='flex flex-col justify-start items-center mx-5 gap-10'>
 
             <h2 className='font-bold md:text-5xl text-4xl lg:mr-96 md:ml-8'>Things I’ve made trying to put my mark in the digital universe.</h2>
 

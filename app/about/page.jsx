@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutHeroSection from './_componets/AboutHeroSection'
 import FooterSection from '../_components/FooterSection'
+import { Separator } from '@/components/ui/separator'
 
 function About() {
   return (
@@ -11,6 +12,8 @@ function About() {
          
            
          </div>
+         <Separator/> 
+
          <FooterSection/>
     </div>
   )

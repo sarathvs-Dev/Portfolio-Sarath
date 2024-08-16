@@ -8,7 +8,7 @@ function JobCareer() {
   return (
     <div >   <section class="flex  md:justify-start justify-center">
     <div class="w-80 -z-20">
-      <h2 class="text-xl text-gray-700 mb-7 flex items-center gap-3"><MdWork/>Career Deatils</h2>
+      <h2 class="text-xl text-gray-700 mb-7 flex items-center gap-3"><MdWork/>Job</h2>
       <ul>
         <li class="relative flex items-baseline gap-6 pb-5">
           <div class="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400 ">
@@ -17,7 +17,7 @@ function JobCareer() {
             </svg>
           </div>
           <div>
-            <p class="text-sm text-gray-600">SOFTWARE ENGINEER</p>
+            <p class="text-sm text-gray-600 font-semibold">SOFTWARE ENGINEER</p>
             <p class="mt-2 text-gray-600 text-sm">Innovature Labs,Kochi</p>
             <p class="mt-2 text-gray-600 text-sm">2023-2024</p>
 
@@ -30,7 +30,7 @@ function JobCareer() {
             </svg>
           </div>
           <div>
-            <p class="text-sm text-gray-600">ASSOCIATE ENGINEER</p>
+            <p class="text-sm text-gray-600 font-semibold">ASSOCIATE ENGINEER</p>
             <p class="mt-2 text-gray-600 text-sm">Innovature Labs,Kochi</p>
             <p class="mt-2 text-gray-600 text-sm">2022-2023</p>
 
