@@ -26,7 +26,7 @@ function TechStack() {
     <div className="relative flex items-center justify-center text-black -z-20">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="mb-2 text-[2.2rem] font-medium text-[#02203c] md:text-[1.8rem]">
-          Toolkit.
+          Skills.
         </div>
         <div className="mb-10 text-[1.1rem] font-light text-[#7c8e9a] md:text-[1rem] ml-5 md:ml-1">
          The skils,tools and technologies i am really good at
