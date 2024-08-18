@@ -16,8 +16,9 @@ function TechStack() {
     "https://cdn.worldvectorlogo.com/logos/next-js.svg",
     "https://i.pinimg.com/736x/c5/5f/50/c55f50cb7be3c17582cc0e28f961fe56.jpg",
     "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-    "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
-    "https://static-00.iconduck.com/assets.00/angular-icon-2048x2048-24b236vf.png",
+    
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZY7pSp8vUlxBODPl3S4YYzsx0Ht-sB7EkQ&s",
+    "https://seeklogo.com/images/A/angular-logo-B76B1CDE98-seeklogo.com.png",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_cQFT2t2hhHGNBAUVWyslwMvXYnK9qHZRw&s",
   ];
