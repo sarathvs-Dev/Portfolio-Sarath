@@ -32,7 +32,7 @@ function ProjectCard() {
               ))}
             </div>
 
-            <div className="flex justify-end items-center gap-3 cursor-pointer text-xl mt-4">
+            {/* <div className="flex justify-end items-center gap-3 cursor-pointer text-xl mt-4">
               {project.git && (
                 <a href={project.git} target="_blank" rel="noopener noreferrer">
                   <FaGithub className="text-black" />
@@ -48,7 +48,7 @@ function ProjectCard() {
                   <Link2Icon className="text-blue-950" />
                 </a>
               )}
-            </div>
+            </div> */}
             {/* <a href="#" className="inline-block mt-4">
               <button
                 className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
