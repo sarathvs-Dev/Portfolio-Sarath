@@ -3,26 +3,24 @@ import React from 'react';
 
 function TechStack() {
   const row1 = [
-    // "../public/angular.png"
-    // "https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s",
-    // "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3uncngDj3h6h1TjNFSo9sgh7PENCLELPM_dGiMf-26_wipiIUpKxwyfmiApxklX5SMQ&usqp=CAU",
-    // "https://i.pinimg.com/originals/56/67/67/56676773cb4f0c00d7d47c6a84b9407c.png",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bctuHVp7CoSYIgexL8-iR5EfQq-E354UnA&s",
-    // "https://cdn.iconscout.com/icon/free/png-256/free-firebase-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-3030134.png"
+    "https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3uncngDj3h6h1TjNFSo9sgh7PENCLELPM_dGiMf-26_wipiIUpKxwyfmiApxklX5SMQ&usqp=CAU",
+    "https://i.pinimg.com/originals/56/67/67/56676773cb4f0c00d7d47c6a84b9407c.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bctuHVp7CoSYIgexL8-iR5EfQq-E354UnA&s",
+    "https://cdn.iconscout.com/icon/free/png-256/free-firebase-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-3030134.png"
   ];
 
   const row2 = [
-    // "/public/angular.png"
-    // "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-    // "https://i.pinimg.com/736x/c5/5f/50/c55f50cb7be3c17582cc0e28f961fe56.jpg",
-    // "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    "https://i.pinimg.com/736x/c5/5f/50/c55f50cb7be3c17582cc0e28f961fe56.jpg",
+    "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZY7pSp8vUlxBODPl3S4YYzsx0Ht-sB7EkQ&s",
-    // "https://seeklogo.com/images/A/angular-logo-B76B1CDE98-seeklogo.com.png",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_cQFT2t2hhHGNBAUVWyslwMvXYnK9qHZRw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZY7pSp8vUlxBODPl3S4YYzsx0Ht-sB7EkQ&s",
+    "https://seeklogo.com/images/A/angular-logo-B76B1CDE98-seeklogo.com.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_cQFT2t2hhHGNBAUVWyslwMvXYnK9qHZRw&s",
   ];
 
   return (
