@@ -20,7 +20,6 @@
         "description": "Developed an AI-driven mock interview platform designed to simulate real-world interview experiences for users, providing personalized feedback and enhancing preparation",
         "technologies": [
          
-          { "name": "Next.js", "icon": "/next.svg" },
           { "name": "Tailwind css", "icon": "/tailwindcss.png" }
         ],
       "git":"https://github.com/sarathvs-Dev/Ai-mock-interview-platform/tree/main",
