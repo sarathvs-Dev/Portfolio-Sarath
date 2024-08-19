@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import FooterSection from "./_components/FooterSection";
-import myImage from '@/public/me3.jpg'
+// import myImage from 'https://firebasestorage.googleapis.com/v0/b/sarathvs-cfc6f.appspot.com/o/me3.jpg?alt=media&token=1520e88c-c81e-4720-ac28-0ea4b9149d25'
 import EducationTimeline from "./_components/EducationTimeline";
 import JobCareer from "./_components/JobCareer";
 import TechStack from "./_components/TechStack";
@@ -37,7 +37,7 @@ export default function Home() {
               <div className="">
               <div className="flex   justify-start items-center md:flex pb-5">
 
-<Image src={myImage} width={70} height={70} className=" rounded-full " />
+<Image src="https://firebasestorage.googleapis.com/v0/b/sarathvs-cfc6f.appspot.com/o/me3.jpg?alt=media&token=1520e88c-c81e-4720-ac28-0ea4b9149d25" width={70} height={70} className=" rounded-full " />
 </div>
                 <p>
                
