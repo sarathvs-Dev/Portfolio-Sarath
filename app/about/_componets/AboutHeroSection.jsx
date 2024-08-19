@@ -16,7 +16,7 @@ function AboutHeroSection() {
 
       <div className="md:hidden flex justify-center items-center md:-mt-20  ">
     <Image
-      src="https://firebasestorage.googleapis.com/v0/b/sarathvs-cfc6f.appspot.com/o/myPic.jpg?alt=media&token=1a0e0019-0d90-4443-a80f-3e50d67c7a64"
+    src={myImage}
       width={350}
       height={350}
       className="rounded-3xl shadow-md"
