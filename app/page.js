@@ -95,7 +95,7 @@ export default function Home() {
          
 
           <div className="bg-gray-950">
-            <div className="flex h-5 items-center space-x-4     py-8 justify-center md:hidden bg-gray-800">
+            <div className="flex h-5 items-center space-x-4     py-8 justify-center md:hidden bg-gray-900">
 
 
               <div className="hover:text-gray-50  text-gray-200 ">

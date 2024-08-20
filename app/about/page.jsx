@@ -14,7 +14,7 @@ function About() {
            
          </div>
 <div className='bg-gray-950'>
-         <div className="flex h-5 items-center space-x-4  text-gray-200 py-8 justify-center md:hidden ">
+         <div className="flex h-5 items-center space-x-4  text-gray-200 py-8 justify-center md:hidden bg-gray-900">
       
        
       <div className="hover:text-gray-50">
