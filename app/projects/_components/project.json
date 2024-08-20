@@ -12,7 +12,7 @@
       "description": "An admin web application, specifically designed for administrators to efficiently manage waste management processes through the YOLOv8 deep learning model.",
       "technologies": [
         { "name": "Python", "icon": "/python.png" },
-        { "name": "React Js", "icon": "https://firebasestorage.googleapis.com/v0/b/sarathvs-cfc6f.appspot.com/o/React.png?alt=media&token=6b17e45b-4e8e-4b21-b306-e5fe29b43c53" }
+        { "name": "React Js", "icon": "/React.png" }
       ]
     },
     {
@@ -36,7 +36,7 @@
         "link":"https://epic-designers-builders.web.app/"
       },
       {
-        "title": "Face detection and ID card verifications",
+        "title": "Face detection and ID card verification",
         "description": "FaceID Verifier is an advanced access control solution tailored for secure company entry systems",
         "technologies": [
          
