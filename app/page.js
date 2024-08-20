@@ -82,7 +82,7 @@ export default function Home() {
 
         </div>
         <div>
-          <div className="grid md:grid-cols-2 grid-cols-1 md:gap-28 gap-12 ">
+          <div className="grid md:grid-cols-2 grid-cols-1 md:gap-36 gap-12 ">
             <EducationTimeline />
             <JobCareer />
 
@@ -94,11 +94,11 @@ export default function Home() {
           </div>
          
 
-          <div>
-            <div className="flex h-5 items-center space-x-4     py-8 justify-center md:hidden">
+          <div className="bg-gray-950">
+            <div className="flex h-5 items-center space-x-4     py-8 justify-center md:hidden bg-gray-800">
 
 
-              <div className="hover:text-black  text-gray-500 ">
+              <div className="hover:text-gray-50  text-gray-200 ">
                 <Link href={'/about'}>
                   About Me
                 </Link>
@@ -106,7 +106,7 @@ export default function Home() {
               </div>
             <Separator orientation="vertical" className=" h-6" />
 
-              <div className="hover:text-black text-gray-500">
+              <div className="hover:text-gray-50 text-gray-200">
                 <Link href={'/projects'}>
                   My Projects
                 </Link>
@@ -114,7 +114,7 @@ export default function Home() {
 
             </div>
            
-            <Separator  />
+            <Separator  className="bg-gray-500  md:h-2" />
 
             <FooterSection />
 

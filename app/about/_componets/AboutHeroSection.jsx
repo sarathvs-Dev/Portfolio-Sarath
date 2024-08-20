@@ -29,7 +29,7 @@ function AboutHeroSection() {
 
          
           <h2 className="font-bold md:text-5xl text-3xl"> About Myself</h2>
-          <h2 className=" justify-center items-center mt-10 text-justify text-gray-900">
+          <h2 className=" justify-center items-center mt-10  text-gray-900">
             I am a motivated Software Engineer with nearly two years of
             experience in developing both front-end and back-end components of
             web applications. My journey in the tech industry began with a

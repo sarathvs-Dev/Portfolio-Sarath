@@ -6,7 +6,7 @@ function ProjectLayout({children}) {
   return (
     <div>
       <HeaderSection pathname={data}/>
-      <div className='mx-5 md:mx-20 lg:mx-36'>
+      <div className=''>
       
       {children}
       </div>
