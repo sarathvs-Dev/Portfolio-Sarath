@@ -44,6 +44,24 @@
             { "name": "Python", "icon": "/python.png" },
             { "name": "React Js", "icon": "/React.png" }
         ]
+      },
+
+      {
+        "title": "Call Navigator (R&D Project)",
+        "description": " Automatically analyzes audio content to determine intent and efficiently directs it to the relevant department.",
+        "technologies": [
+         
+            { "name": "Python", "icon": "/python.png" },
+            { "name": "Vue Js", "icon": "/vue.png"  }
+        ]
+      },
+      {
+        "title": "Booking System",
+        "description": "Contributed to the development booking system for a houseboat rental service, featuring availability calendars, booking management, and user profiles",
+        "technologies": [
+          { "name": "Node Js", "icon": "/node.png" },
+          { "name": "Vue Js", "icon": "/vue.png" }
+        ]
       }
   ]
   
