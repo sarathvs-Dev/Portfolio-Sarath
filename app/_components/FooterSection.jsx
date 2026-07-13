@@ -43,7 +43,7 @@ function FooterSection() {
       </div>
 
       <div className="border-t border-gray-800">
-        <h2 className="flex justify-center items-center text-gray-500 text-sm py-5">© 2024 Sarath VS. All rights reserved.</h2>
+        <h2 className="flex justify-center items-center text-gray-500 text-sm py-5">© {new Date().getFullYear()} Sarath VS. All rights reserved.</h2>
       </div>
     </div>
   )
