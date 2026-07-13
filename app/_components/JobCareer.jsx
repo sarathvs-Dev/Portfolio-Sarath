@@ -1,56 +1,39 @@
 import { BriefcaseBusiness } from 'lucide-react';
 import React from 'react'
-import { GoOrganization } from "react-icons/go";
-import { MdWork } from "react-icons/md";
-
 
 
 function JobCareer() {
   return (
-    <div >   <section class="flex  md:justify-start justify-center">
-    <div class="w-80 -z-20">
-      <h2 class="text-xl text-gray-900 mb-7 flex items-center gap-3 font-bold"><BriefcaseBusiness />Work Experience</h2>
+    <div>   <section className="flex md:justify-start justify-center">
+    <div className="w-80 -z-20">
+      <h2 className="font-display text-xl text-gray-900 mb-8 flex items-center gap-3 font-bold">
+        <span className="grid place-items-center h-9 w-9 rounded-xl bg-fuchsia-50 text-fuchsia-600"><BriefcaseBusiness size={18}/></span>
+        Work Experience
+      </h2>
       <ul>
-      <li class="relative flex items-baseline gap-6 pb-5">
-          <div class="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400 ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-              <circle cx="8" cy="8" r="8" />
-            </svg>
+      <li className="animate-in fade-in slide-in-from-right-4 fill-mode-both relative flex items-baseline gap-6 pb-7">
+          <div className="before:absolute before:left-[5.5px] before:h-full before:w-[2px] before:bg-gray-200">
+            <span className="block h-3 w-3 rounded-full bg-fuchsia-600 ring-4 ring-fuchsia-100"></span>
           </div>
           <div>
-            <p class="text-sm text-gray-600 font-semibold">Software Engineer</p>
-            <p class="mt-2 text-gray-600 text-sm">Teksalah,Kochi</p>
-            <p class="mt-2 text-gray-600 text-sm">2024 - Present</p>
+            <p className="text-sm text-gray-800 font-semibold">Software Engineer</p>
+            <p className="mt-2 text-gray-500 text-sm">Teksalah, Kochi</p>
+            <p className="mt-1 text-fuchsia-600 text-xs font-medium">Oct 2024 - Present</p>
 
           </div>
         </li>
-        <li class="relative flex items-baseline gap-6 pb-5">
-          <div class="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400 ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-              <circle cx="8" cy="8" r="8" />
-            </svg>
+        <li style={{ animationDelay: '120ms' }} className="animate-in fade-in slide-in-from-right-4 fill-mode-both relative flex items-baseline gap-6 pb-5">
+          <div className="before:absolute before:left-[5.5px] before:h-0 before:w-[2px] before:bg-gray-200">
+            <span className="block h-3 w-3 rounded-full bg-fuchsia-600 ring-4 ring-fuchsia-100"></span>
           </div>
           <div>
-            <p class="text-sm text-gray-600 font-semibold">Software Engineer</p>
-            <p class="mt-2 text-gray-600 text-sm">Innovature Labs,Kochi</p>
-            <p class="mt-2 text-gray-600 text-sm">2023-2024</p>
+            <p className="text-sm text-gray-800 font-semibold">Software Engineer</p>
+            <p className="mt-2 text-gray-500 text-sm">Innovature Labs, Infopark Kochi</p>
+            <p className="mt-1 text-fuchsia-600 text-xs font-medium">Jul 2022 - Mar 2024</p>
 
           </div>
         </li>
-        <li class="relative flex items-baseline gap-6 pb-5">
-          <div class="before:absolute before:left-[5.5px] before:h-0 before:w-[1px] before:bg-gray-400">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-              <circle cx="8" cy="8" r="8" />
-            </svg>
-          </div>
-          <div>
-            <p class="text-sm text-gray-600 font-semibold">Associate Engineer</p>
-            <p class="mt-2 text-gray-600 text-sm">Innovature Labs,Kochi</p>
-            <p class="mt-2 text-gray-600 text-sm">2022-2023</p>
 
-          </div>
-        </li>
-      
       </ul>
     </div>
   </section></div>

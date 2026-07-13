@@ -26,11 +26,11 @@ function TechStack() {
   return (
     <div className="relative flex items-center justify-center text-black -z-20">
       <div className="flex flex-col justify-start md:justify-center md:items-center w-full">
-        <div className="mb-2 text-[2.2rem] font-bold text-gray-900 md:text-[1.8rem] ml-10 md:ml-0">
-          Skills.
+        <div className="mb-2 font-display text-[2.2rem] font-bold text-gray-900 md:text-[1.8rem] ml-10 md:ml-0">
+          Skills<span className="text-indigo-600">.</span>
         </div>
         <div className="mb-10 text-[1.1rem] font-light text-[#7c8e9a] md:text-[1rem] ml-10 md:ml-1">
-         The skils,tools and technologies i am really good at
+         The skills, tools and technologies I am really good at
         </div>
 
         {/* Row 1 */}
@@ -38,15 +38,15 @@ function TechStack() {
           <div className="flex w-full overflow-hidden select-none" style={{ maskImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), black 10%, black 90%, rgba(0, 0, 0, 0))' }}>
             <div className="flex items-center justify-around whitespace-nowrap animate-scrollX">
               {row1.map((el, index) => (
-                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
-                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                <div key={index} className="grid place-items-center p-[clamp(1rem,4vw,1.8rem)] mx-2 w-[clamp(9rem,7vw,15rem)] md:w-[clamp(8rem,5vw,12rem)] rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <img src={el} alt="" className="object-contain w-full h-full aspect-[16/9]" />
                 </div>
               ))}
             </div>
             <div className="flex items-center justify-around whitespace-nowrap animate-scrollX">
               {row1.map((el, index) => (
-                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
-                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                <div key={index} className="grid place-items-center p-[clamp(1rem,4vw,1.8rem)] mx-2 w-[clamp(9rem,7vw,15rem)] md:w-[clamp(8rem,5vw,12rem)] rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <img src={el} alt="" className="object-contain w-full h-full aspect-[16/9]" />
                 </div>
               ))}
             </div>
@@ -54,19 +54,19 @@ function TechStack() {
         </div>
 
         {/* Row 2 */}
-        <div className="relative w-full overflow-hidden">
+        <div className="relative w-full overflow-hidden mt-4">
           <div className="flex w-full overflow-hidden select-none" style={{ maskImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), black 10%, black 90%, rgba(0, 0, 0, 0))' }}>
             <div className="flex items-center justify-around whitespace-nowrap animate-scrollXReverse">
               {row2.map((el, index) => (
-                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
-                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                <div key={index} className="grid place-items-center p-[clamp(1rem,4vw,1.8rem)] mx-2 w-[clamp(9rem,7vw,15rem)] md:w-[clamp(8rem,5vw,12rem)] rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <img src={el} alt="" className="object-contain w-full h-full aspect-[16/9]" />
                 </div>
               ))}
             </div>
             <div className="flex items-center justify-around whitespace-nowrap animate-scrollXReverse">
               {row2.map((el, index) => (
-                <div key={index} className="grid place-items-center p-[clamp(1.2rem,5vw,2.5rem)] w-[clamp(12rem,8vw,25rem)] md:w-[clamp(10rem,6vw,20rem)] md:p-[clamp(1rem,5vw,2rem)]">
-                  <img src={el} alt="" className="object-contain w-full h-full p-[15px_20px] md:p-[10px_15px] rounded-[0.5rem] aspect-[16/9]" />
+                <div key={index} className="grid place-items-center p-[clamp(1rem,4vw,1.8rem)] mx-2 w-[clamp(9rem,7vw,15rem)] md:w-[clamp(8rem,5vw,12rem)] rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <img src={el} alt="" className="object-contain w-full h-full aspect-[16/9]" />
                 </div>
               ))}
             </div>

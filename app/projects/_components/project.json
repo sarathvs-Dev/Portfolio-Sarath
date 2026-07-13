@@ -1,25 +1,52 @@
 [
     {
-      "title": "Task Management System",
-      "description": "A software application designed to help teams and individuals organize,prioritize, and track tasks within a project.",
+      "title": "Cummins Arabia – HSE Management ERP",
+      "role": "Full-Stack Developer",
+      "description": "Enterprise ERP platform for Health, Safety & Environment compliance, enabling real-time incident reporting, analytics dashboards, and regulatory tracking for Cummins Arabia.",
       "technologies": [
-        { "name": "Node Js", "icon": "/node.png" },
-        { "name": "Vue Js", "icon": "/vue.png" }
+        { "name": "Vue Js", "icon": "/vue.png" },
+        { "name": "Java" },
+        { "name": "Tailwind css", "icon": "/tailwindcss.png" }
+      ]
+    },
+    {
+      "title": "Cummins Arabia – DOA Approval System",
+      "role": "Full-Stack Developer",
+      "description": "Digital Delegation of Authority (DOA) approval workflow system for Cummins Arabia, streamlining multi-level authorization processes, approval routing, and audit trail management across the organization.",
+      "technologies": [
+        { "name": "Vue Js", "icon": "/vue.png" },
+        { "name": "Java" }
       ]
     },
     {
       "title": "Waste Management System",
-      "description": "An admin web application, specifically designed for administrators to efficiently manage waste management processes through the YOLOv8 deep learning model.",
+      "role": "Full-Stack Developer",
+      "description": "Admin web application enabling intelligent waste management using deep learning, with an integrated YOLOv8 model for automated detection and classification.",
       "technologies": [
+        { "name": "React Js", "icon": "/React.png" },
+        { "name": "Django" },
+        { "name": "YOLOv8" }
+      ]
+    },
+    {
+      "title": "Face Detection & ID Card Verification (R&D)",
+      "role": "Full-Stack Developer",
+      "description": "Advanced biometric access control system using facial recognition and OCR-based ID verification, built for secure company entry management.",
+      "technologies": [
+        { "name": "React Js", "icon": "/React.png" },
         { "name": "Python", "icon": "/python.png" },
-        { "name": "React Js", "icon": "/React.png" }
+        { "name": "Django" },
+        { "name": "DeepFace" },
+        { "name": "EasyOCR" },
+        { "name": "YOLOv8" }
       ]
     },
     {
         "title": "Ai Mock Interview Platform",
+        "role": "Full-Stack Developer",
         "description": "Developed an AI-driven mock interview platform designed to simulate real-world interview experiences for users, providing personalized feedback and enhancing preparation",
         "technologies": [
-         
+
           { "name": "Next.js", "icon": "/nextjs.svg" },
           { "name": "Tailwind css", "icon": "/tailwindcss.png" }
         ],
@@ -27,41 +54,41 @@
       "link":"https://ai-mock-interview-platform-qj4p.vercel.app/"
       },
       {
-        "title": "Construction Company Site",
-        "description": "Developed a static website for a construction and house designing startup, aimed at showcasing their services, portfolio, and contact information",
+        "title": "Task Management System",
+        "role": "Frontend Developer",
+        "description": "Collaborative task management application supporting team project tracking, prioritization, and progress monitoring.",
         "technologies": [
-         
+          { "name": "Node Js", "icon": "/node.png" },
+          { "name": "Vue Js", "icon": "/vue.png" }
+        ]
+      },
+      {
+        "title": "Houseboat Booking System",
+        "role": "Frontend Developer · Freelance",
+        "description": "Contributed to a full-featured booking platform for a houseboat rental service, including availability calendars, booking flows, and user profiles.",
+        "technologies": [
+          { "name": "Vue Js", "icon": "/vue.png" },
+          { "name": "Java" }
+        ]
+      },
+      {
+        "title": "Construction Company Website",
+        "role": "Frontend Developer · Freelance",
+        "description": "Designed and built a modern responsive website featuring project showcases, service listings, and contact forms.",
+        "technologies": [
           { "name": "React.js", "icon": "/React.png" },
           { "name": "Tailwind css", "icon": "/tailwindcss.png" }
         ],
         "link":"https://epic-designers-builders.web.app/"
       },
       {
-        "title": "Face detection and ID card verification",
-        "description": "FaceID Verifier is an advanced access control solution tailored for secure company entry systems",
-        "technologies": [
-         
-            { "name": "Python", "icon": "/python.png" },
-            { "name": "React Js", "icon": "/React.png" }
-        ]
-      },
-
-      {
         "title": "Call Navigator (R&D Project)",
-        "description": " Automatically analyzes audio content to determine intent and efficiently directs it to the relevant department.",
+        "role": "Full-Stack Developer",
+        "description": "Automatically analyzes audio content to determine intent and efficiently directs it to the relevant department.",
         "technologies": [
-         
+
             { "name": "Python", "icon": "/python.png" },
             { "name": "Vue Js", "icon": "/vue.png"  }
         ]
-      },
-      {
-        "title": "Booking System",
-        "description": "Contributed to the development booking system for a houseboat rental service, featuring availability calendars, booking management, and user profiles",
-        "technologies": [
-          { "name": "Node Js", "icon": "/node.png" },
-          { "name": "Vue Js", "icon": "/vue.png" }
-        ]
       }
   ]
-  

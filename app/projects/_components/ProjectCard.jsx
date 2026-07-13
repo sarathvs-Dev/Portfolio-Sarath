@@ -1,41 +1,71 @@
 import React from "react";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa6";
-import { Link2Icon } from "lucide-react";
+import { Link2Icon, FolderGit2 } from "lucide-react";
 import projects from "./project.json"; // Adjust the path according to your file structure
+
+const accents = [
+  { bar: "from-indigo-500 via-violet-500 to-fuchsia-500", chip: "bg-indigo-50 text-indigo-600" },
+  { bar: "from-fuchsia-500 via-pink-500 to-rose-500", chip: "bg-fuchsia-50 text-fuchsia-600" },
+  { bar: "from-cyan-500 via-sky-500 to-indigo-500", chip: "bg-sky-50 text-sky-600" },
+  { bar: "from-emerald-500 via-teal-500 to-cyan-500", chip: "bg-emerald-50 text-emerald-600" },
+];
 
 function ProjectCard() {
   return (
     <>
-      {projects.map((project, index) => (
+      {projects.map((project, index) => {
+        const accent = accents[index % accents.length];
+        return (
         <div
           key={index}
-          className="-z-50 relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-h-[38rem] max-w-[38rem] flex-row"
+          style={{ animationDelay: `${(index % 6) * 80}ms` }}
+          className="animate-in fade-in slide-in-from-bottom-4 fill-mode-both group relative flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
         >
-          <div className="p-6">
-            <h4 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              {project.title}
-            </h4>
-            <h6 className="block mb-4 font-sans text-base antialiased  leading-relaxed tracking-normal text-gray-700 text-justify">
+          <div className={`h-1.5 w-full bg-gradient-to-r ${accent.bar}`}></div>
+
+          <div className="p-6 flex flex-col flex-1">
+            <div className="mb-3 flex items-start justify-between gap-3">
+              <h4 className="font-display text-xl font-semibold leading-snug tracking-tight text-gray-900">
+                {project.title}
+              </h4>
+              <span className={`grid h-9 w-9 shrink-0 place-items-center rounded-xl ${accent.chip}`}>
+                <FolderGit2 size={16} />
+              </span>
+            </div>
+            {project.role && (
+              <span className="mb-3 inline-block w-fit rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-gray-600">
+                {project.role}
+              </span>
+            )}
+            <h6 className="mb-4 flex-1 font-sans text-sm leading-relaxed tracking-normal text-gray-600">
               {project.description}
             </h6>
-            <div className="flex flex-row gap-2 text-2xl">
+
+            <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech, techIndex) => (
-                <Image
+                <span
                   key={techIndex}
-                  src={tech.icon}
-                  width={40}
-                  height={40}
-                  alt={tech.name}
-                  title={tech?.name}
-                />
+                  className="inline-flex items-center gap-1.5 rounded-full bg-gray-50 ring-1 ring-gray-100 px-2.5 py-1 text-xs font-medium text-gray-700"
+                >
+                  {tech.icon && (
+                    <Image
+                      src={tech.icon}
+                      width={16}
+                      height={16}
+                      alt={tech.name}
+                      className="object-contain"
+                    />
+                  )}
+                  {tech.name}
+                </span>
               ))}
             </div>
 
-            <div className="flex justify-end items-center gap-3 cursor-pointer text-xl mt-4">
+            <div className="flex justify-end items-center gap-4 text-xl mt-5 pt-4 border-t border-gray-100">
               {project.git && (
-                <a href={project.git} target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="text-black" />
+                <a href={project.git} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 transition-colors">
+                  <FaGithub />
                 </a>
               )}
               {project.link && (
@@ -44,36 +74,16 @@ function ProjectCard() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="view website"
+                  className="text-gray-500 hover:text-indigo-600 transition-colors"
                 >
-                  <Link2Icon className="text-blue-950" />
+                  <Link2Icon />
                 </a>
               )}
             </div>
-            {/* <a href="#" className="inline-block mt-4">
-              <button
-                className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
-                type="button"
-              >
-                Learn More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className="w-4 h-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                  />
-                </svg>
-              </button>
-            </a> */}
           </div>
         </div>
-      ))}
+        );
+      })}
     </>
   );
 }

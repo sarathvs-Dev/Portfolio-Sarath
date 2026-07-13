@@ -1,48 +1,32 @@
-import { Separator } from '@/components/ui/separator'
 import React from 'react'
 import { BiLogoGmail } from 'react-icons/bi'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa6'
 
 function ConnectSection() {
+  const links = [
+    { href: 'https://www.linkedin.com/in/sarath-vs-0938a11ab/', icon: FaLinkedin, hover: 'hover:bg-blue-600 hover:text-white' },
+    { href: 'https://www.instagram.com/sarath__v.s/?igsh=MWx4aWN4aWlvazRtNA%3D%3D', icon: FaInstagram, hover: 'hover:bg-pink-600 hover:text-white' },
+    { href: 'mailto:sarathvs124@gmail.com', icon: BiLogoGmail, hover: 'hover:bg-red-600 hover:text-white' },
+    { href: 'https://wa.me/919495330037', icon: FaWhatsapp, hover: 'hover:bg-green-600 hover:text-white' },
+  ]
+
   return (
-    <div>
-
-        <div>
-         
-            <div className="my-10">
-      <div className="space-y-1">
-        <h4 className="font-bold text-xl leading-none items-center">Connect with Me</h4>
-        {/* <p className="text-sm text-muted-foreground">
-          An open-source UI component library.
-        </p> */}
+    <div className="my-10">
+      <h4 className="font-bold text-xl leading-none items-center">Connect with Me</h4>
+      <div className="flex items-center gap-4 mt-6">
+        {links.map(({ href, icon: Icon, hover }, i) => (
+          <a
+            key={i}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`grid place-items-center h-12 w-12 rounded-full bg-gray-100 text-gray-600 text-xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg ${hover}`}
+          >
+            <Icon />
+          </a>
+        ))}
       </div>
-      <Separator className="my-4" />
-      <div className="flex h-5 items-center space-x-4 text-3xl text-gray-600">
-        <div>
-        <a href="https://www.linkedin.com/in/sarath-vs-0938a11ab/">  <FaLinkedin className="cursor-pointer hover:text-blue-900" /></a>
-
-        </div>
-        <Separator orientation="vertical" />
-        <div>
-        <a href="https://www.instagram.com/sarath__v.s/?igsh=MWx4aWN4aWlvazRtNA%3D%3D"> <FaInstagram className="cursor-pointer hover:text-pink-800" /></a>
-
-        </div>
-        <Separator orientation="vertical" />
-        <div>
-        <a href="mailto:sarathvs124@gmail.com.com">
-              <BiLogoGmail className="cursor-pointer hover:text-red-700" />
-            </a>
-        </div>
-        <Separator orientation="vertical" />
-        <div>
-        <a href="https://wa.me/919495330037">
-        <FaWhatsapp className="cursor-pointer hover:text-green-700" />
-            </a>
-        </div>
-      </div>
-    </div>
-        </div>
     </div>
   )
 }

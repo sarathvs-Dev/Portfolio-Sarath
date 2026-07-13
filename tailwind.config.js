@@ -61,6 +61,7 @@ module.exports = {
         second:["Montserrat","sans-serif"],
         third:["Montserrat","sans-serif"],
         roboto:["Bona Nova SC", "serif"],
+        display:["var(--font-display)","sans-serif"],
       },
       keyframes: {
         scrollX: {
@@ -71,10 +72,21 @@ module.exports = {
           '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(0)' },
         },
+        blob: {
+          '0%, 100%': { transform: 'translate(0px, 0px) scale(1)' },
+          '33%': { transform: 'translate(20px, -30px) scale(1.1)' },
+          '66%': { transform: 'translate(-15px, 15px) scale(0.95)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
       },
       animation: {
         scrollX: 'scrollX 30s linear infinite',
         scrollXReverse: 'scrollXReverse 30s linear infinite',
+        blob: 'blob 10s infinite',
+        float: 'float 4s ease-in-out infinite',
       },
 
     },

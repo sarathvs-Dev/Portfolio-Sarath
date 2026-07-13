@@ -1,41 +1,39 @@
-import { GraduationCap, GraduationCapIcon } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import React from 'react'
-import { FaUniversity } from "react-icons/fa";
 
 
 function EducationTimeline() {
   return (
-    <section class="flex  md:justify-end  justify-center  font-second">
-    <div class="w-80 -z-20">
-      <h2 class="text-xl text-gray-900 mb-7 flex items-center gap-3 font-bold" ><GraduationCap/>Education </h2>
+    <section className="flex md:justify-end justify-center font-second">
+    <div className="w-80 -z-20">
+      <h2 className="font-display text-xl text-gray-900 mb-8 flex items-center gap-3 font-bold">
+        <span className="grid place-items-center h-9 w-9 rounded-xl bg-indigo-50 text-indigo-600"><GraduationCap size={18}/></span>
+        Education
+      </h2>
       <ul>
-        <li class="relative flex items-baseline gap-6 pb-5">
-          <div class="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-              <circle cx="8" cy="8" r="8" />
-            </svg>
+        <li className="animate-in fade-in slide-in-from-left-4 fill-mode-both relative flex items-baseline gap-6 pb-7">
+          <div className="before:absolute before:left-[5.5px] before:h-full before:w-[2px] before:bg-gray-200">
+            <span className="block h-3 w-3 rounded-full bg-indigo-600 ring-4 ring-indigo-100"></span>
           </div>
           <div>
-            <p class="text-sm text-gray-600 text-left font-semibold">Master Of Computer Application(MCA)</p>
-            <p class="mt-2 text-gray-600 text-sm">Marian College Kuttikanam</p>
-            <p class="mt-2 text-gray-600 text-sm">2020-2022</p>
+            <p className="text-sm text-gray-800 text-left font-semibold">Master Of Computer Application(MCA)</p>
+            <p className="mt-2 text-gray-500 text-sm">Marian College Kuttikanam</p>
+            <p className="mt-1 text-indigo-600 text-xs font-medium">2020-2022</p>
 
           </div>
         </li>
-        <li class="relative flex items-baseline gap-6 pb-5">
-          <div class="before:absolute before:left-[5.5px] before:h-0 before:w-[1px] before:bg-gray-400">
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-              <circle cx="8" cy="8" r="8" />
-            </svg>
+        <li style={{ animationDelay: '120ms' }} className="animate-in fade-in slide-in-from-left-4 fill-mode-both relative flex items-baseline gap-6 pb-5">
+          <div className="before:absolute before:left-[5.5px] before:h-0 before:w-[2px] before:bg-gray-200">
+            <span className="block h-3 w-3 rounded-full bg-indigo-600 ring-4 ring-indigo-100"></span>
           </div>
           <div>
-            <p class="text-sm text-gray-600 font-semibold">Bachelor Of Computer Application(BCA)</p>
-            <p class="mt-2 text-gray-600 text-sm">St George's College Aruvithura.</p>
-            <p class="mt-2 text-gray-600 text-sm">2017-2020</p>
+            <p className="text-sm text-gray-800 font-semibold">Bachelor Of Computer Application(BCA)</p>
+            <p className="mt-2 text-gray-500 text-sm">St George's College Aruvithura.</p>
+            <p className="mt-1 text-indigo-600 text-xs font-medium">2017-2020</p>
 
           </div>
         </li>
-      
+
       </ul>
     </div>
   </section>
